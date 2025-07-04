@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    position: relative;
+
+}
+
+header {
+    padding: 80px;
+    background: url(Image/beautiful-snowman-winter-landscape.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .big-head {
+        width: 800px;
+        color: white;
+        font-size: 45px;
+        position: relative;
+        left: 125px
+    };
+    .small-head {
+        width: 500px;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        left: 130px;
+    }
+    .credit {
+        width: 180px;
+        color: white;
+        font-size: 10px;
+        position: relative;
+        top: -15px;
+        left: 500px;
+    }
+    .link {
+        color: white;
+        text-decoration: none;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        position: relative;
+        left: 1355px;
+        top: -60px;
+    }
+}
+
+main {
+    height: 925px;
+}
+
+.what {
+    display: inline-block;
+    padding: 40px;
+    padding-right: 600px;
+
+    .what-head {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px ;
+        color: white;
+        position: relative;
+        z-index: 1;
+    }
+    .ans-text {
+        background-color: rgb(235, 234, 234);
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        position: relative;
+        top: -10px;
+        z-index: 0;
+    }
+}
+
+.img1 {
+    width: 500px;
+    height: 300px;
+    background-image: url(Image/christ-car.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    left: 980px;
+    top: -187px;
+}
+
+.history {
+    top: -450px;
+    display: inline-block;
+    padding: 40px;
+    padding-right: 600px;
+    .his-head {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px ;
+        color: white;
+        position: relative;
+        z-index: 1;
+        text-align: right;
+    }
+    .his-ans {
+        background-color: rgb(235, 234, 234);
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        position: relative;
+        top: -10px;
+        z-index: 0;
+    }
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed ;
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    z-index: 999;
+    
+    .foot {
+        text-align: center;
+    }
+}
+
+.header2 {
+    background-color: #333;
+    text-align: center;
+    padding: 40px;
+    top: -450px;
+    .head {
+        color: white;
+        font-size: 20px;
+    }
+
+}
+
+.do {
+    padding: 40px;
+    top: -430px;
+    .do-head {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px ;
+        color: white;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+    .do-text {
+        background-color: rgb(235, 234, 234);
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        position: relative;
+        top: -10px;
+        z-index: 0;
+    }
+}
